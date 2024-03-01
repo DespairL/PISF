@@ -1,0 +1,5 @@
+**/__pycache__
+persona/mbti_llms/codes/rlhf/data_augment/negative/**/*.json
+persona/mbti_llms/codes/rlhf/data_augment/neutral/**/*.json
+persona/mbti_llms/codes/rlhf/data_augment/original/**/*.json
+persona/mbti_llms/codes/rlhf/data_augment/positive/**/*.json

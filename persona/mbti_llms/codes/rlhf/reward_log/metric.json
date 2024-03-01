@@ -1,0 +1,170 @@
+[
+    {
+        "acc": 0.9940000176429749,
+        "c_score": 19.1396484375,
+        "r_score": -12.92578125,
+        "diff": 32.0654296875,
+        "model": "llama-E-Reward-Model"
+    },
+    {
+        "acc": 1.0,
+        "c_score": 23.88671875,
+        "r_score": -21.611328125,
+        "diff": 45.498046875,
+        "model": "llama-I-Reward-Model"
+    },
+    {
+        "acc": 0.9975000619888306,
+        "c_score": 19.34375,
+        "r_score": -25.095703125,
+        "diff": 44.439453125,
+        "model": "llama-S-Reward-Model"
+    },
+    {
+        "acc": 0.9985000491142273,
+        "c_score": 22.388671875,
+        "r_score": -30.0703125,
+        "diff": 52.458984375,
+        "model": "llama-N-Reward-Model"
+    },
+    {
+        "acc": 0.9975000619888306,
+        "c_score": 15.7177734375,
+        "r_score": -16.759765625,
+        "diff": 32.4775390625,
+        "model": "llama-T-Reward-Model"
+    },
+    {
+        "acc": 1.0,
+        "c_score": 6.703125,
+        "r_score": -26.091796875,
+        "diff": 32.794921875,
+        "model": "llama-F-Reward-Model"
+    },
+    {
+        "acc": 0.9985000491142273,
+        "c_score": 10.4375,
+        "r_score": -13.533203125,
+        "diff": 23.970703125,
+        "model": "llama-J-Reward-Model"
+    },
+    {
+        "acc": 1.0,
+        "c_score": 27.76171875,
+        "r_score": -21.12890625,
+        "diff": 48.890625,
+        "model": "llama-P-Reward-Model"
+    },
+    {
+        "acc": 0.9971250295639038,
+        "c_score": 17.57400131225586,
+        "r_score": -30.091001510620117,
+        "diff": 47.66500282287598,
+        "model": "llama-ENTJ-Reward-Model"
+    },
+    {
+        "acc": 0.9987500905990601,
+        "c_score": 27.315502166748047,
+        "r_score": -28.218002319335938,
+        "diff": 55.533504486083984,
+        "model": "llama-ENFP-Reward-Model"
+    },
+    {
+        "acc": 0.9981250762939453,
+        "c_score": 16.957250595092773,
+        "r_score": -29.84400177001953,
+        "diff": 46.801252365112305,
+        "model": "llama-ENFJ-Reward-Model"
+    },
+    {
+        "acc": 0.9985000491142273,
+        "c_score": 27.953502655029297,
+        "r_score": -23.898502349853516,
+        "diff": 51.85200500488281,
+        "model": "llama-ENTP-Reward-Model"
+    },
+    {
+        "acc": 0.9983750581741333,
+        "c_score": 20.06875228881836,
+        "r_score": -22.830001831054688,
+        "diff": 42.89875411987305,
+        "model": "llama-ESTJ-Reward-Model"
+    },
+    {
+        "acc": 0.999000072479248,
+        "c_score": 26.273502349853516,
+        "r_score": -21.259000778198242,
+        "diff": 47.53250312805176,
+        "model": "llama-ESTP-Reward-Model"
+    },
+    {
+        "acc": 0.9987500905990601,
+        "c_score": 32.128501892089844,
+        "r_score": -32.86000061035156,
+        "diff": 64.9885025024414,
+        "model": "llama-ESFP-Reward-Model"
+    },
+    {
+        "acc": 0.9983750581741333,
+        "c_score": 25.970500946044922,
+        "r_score": -28.586502075195312,
+        "diff": 54.557003021240234,
+        "model": "llama-ESFJ-Reward-Model"
+    },
+    {
+        "acc": 0.9986250400543213,
+        "c_score": 18.246749877929688,
+        "r_score": -31.529003143310547,
+        "diff": 49.775753021240234,
+        "model": "llama-INTJ-Reward-Model"
+    },
+    {
+        "acc": 0.99937504529953,
+        "c_score": 29.664501190185547,
+        "r_score": -30.96700096130371,
+        "diff": 60.63150215148926,
+        "model": "llama-INTP-Reward-Model"
+    },
+    {
+        "acc": 0.9993749856948853,
+        "c_score": 35.022499084472656,
+        "r_score": -29.59600067138672,
+        "diff": 64.61849975585938,
+        "model": "llama-INFP-Reward-Model"
+    },
+    {
+        "acc": 0.9976249933242798,
+        "c_score": 16.262001037597656,
+        "r_score": -38.13349914550781,
+        "diff": 54.39550018310547,
+        "model": "llama-INFJ-Reward-Model"
+    },
+    {
+        "acc": 0.9981250762939453,
+        "c_score": 20.234500885009766,
+        "r_score": -28.74700164794922,
+        "diff": 48.981502532958984,
+        "model": "llama-ISTJ-Reward-Model"
+    },
+    {
+        "acc": 0.999000072479248,
+        "c_score": 28.140501022338867,
+        "r_score": -28.49850082397461,
+        "diff": 56.63900184631348,
+        "model": "llama-ISTP-Reward-Model"
+    },
+    {
+        "acc": 0.9991250038146973,
+        "c_score": 27.413501739501953,
+        "r_score": -44.637001037597656,
+        "diff": 72.05050277709961,
+        "model": "llama-ISFP-Reward-Model"
+    },
+    {
+        "acc": 0.9982500076293945,
+        "c_score": 27.271501541137695,
+        "r_score": -34.855003356933594,
+        "diff": 62.12650489807129,
+        "model": "llama-ISFJ-Reward-Model"
+    }
+]

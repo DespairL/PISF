@@ -1,0 +1,1 @@
+python3 /data/NJU/datasets/persona/mbti_llms/codes/prompt_test/evaluate_llama_70b.py
