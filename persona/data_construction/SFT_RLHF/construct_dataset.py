@@ -62,7 +62,7 @@ for key, value in dataset_split.items():
 # rl dataset
 
 # reward - (chosen, rejceted) + (chosen, neutral)
-# 5000 samples from GPT3.5
+# 5000 samples from GPT3.5-turbo-1106
 # more samples are added in persona/mbti_llms/codes/rlhf/data_augment
 """
 reward_path = 'rl_dataset/reward'
