@@ -2,9 +2,11 @@
 
 Authors: Yanquan Chen, Zhen Wu, Junjie Guo, Shujian Huang, Xinyu Dai
 
-## News and Updates
+## Overview
 
-[]
+We embarked on a comprehensive investigation into personality control with typical methods to influence LLMs.
+
+![a](asserts/overview_00.png)
 
 ## Codes
 
@@ -13,25 +15,66 @@ All codes and scripts for Continual Pre-train, Supervised Fine-tuning (SFT), and
 ```
 ├── persona
 │   └── data_construction # The code for constructing the dataset.
-│   └── mbti_llms  # The code for results.
+│   └── mbti_llms  # The code for training.
 |       └── codes
-|       └── evaluate_datasets
+|       └── evaluate_datasets # Download evaluate_datasets and put here.
 |       └── ...
-|       └── train_datasets
+|       └── train_datasets # Download train_datasets and put here.
 │   └── models
 │   └── performance
 ```
 
 ## Datasets
 
+The data volumn of our datasets:
+
+![g](asserts/dataset_volumn.jpg)
+
+The summary statistics of our datasets:
+
+![f](asserts/statistic_dataset.jpg)
+
 All training and evaluating datasets constructed in our work are available via the following link:
 
 [Download Datasets](https://drive.google.com/drive/folders/1g7tRFBxfsaqg_L56kfWejaGlJJGFNZjo?usp=drive_link)
+
+## Results
+
+### Synthetic Personality Control Success Rate & Efficacy
+
+Our investigation revealed a hierarchy of effectiveness in control: Prompt > SFT > RLHF > Continual Pre-train.
+Notably, SFT exhibits a higher control success rate compared to prompt induction.
+
+![b](asserts/effectiveness_and_success_line_plot_00.png)
+
+### Synthetic Personality Control Robustness
+
+While prompts prove highly effective, we found that prompt-induced personalities are less robust than those trained, making them more prone to showing conflicting personalities under reverse personality prompt induction.
+
+Reverse Personality Prompt Induction (RPPI) task performance:
+
+![c](asserts/robustness_wo_pisf.jpg)
+
+### $\text{{PISF}}$: $\underline{\text{P}}$rompt $\underline{\text{{I}}}$nduction post $\underline{\text{{S}}}$upervised $\underline{\text{{F}}}$ine-tuning
+
+Harnessing the strengths of both SFT and prompt, we proposed $\underline{\text{P}}$rompt $\underline{\text{{I}}}$nduction post $\underline{\text{{S}}}$upervised $\underline{\text{{F}}}$ine-tuning $(\text{PISF})$, which emerges as the most effective and robust strategy for controlling LLMs' personality, displaying high efficacy, high success rates, and high robustness.
+Even under reverse personality prompt induction, LLMs controlled by PISF still exhibit stable and robust personalities.
+
+Control Success Rate & Efficacy:
+
+![d](asserts/effectiveness_of_pisf.jpg)
+
+Control Robustness:
+
+![e](asserts/robust_of_pisf.jpg)
 
 ## Citation
 
 If you find our work useful for your research and applications, please cite using this BibTeX:
 
+## Acknowledgement
+
+We adapted [Deepspeed-Chat](https://github.com/microsoft/DeepSpeed) for the RLHF training phase. And we refined the continual pretraining datasets using data from [Myers Briggs Personality Tags on Reddit Data](https://zenodo.org/records/1482951).
 
 ## License
 
