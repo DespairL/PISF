@@ -74,7 +74,7 @@ If you find our work useful for your research and applications, please cite usin
 
 ## Acknowledgement
 
-We adapted [Deepspeed-Chat](https://github.com/microsoft/DeepSpeed) for the RLHF training phase. And we refined the continual pretraining datasets using data from [Myers Briggs Personality Tags on Reddit Data](https://zenodo.org/records/1482951).
+We adapted [Deepspeed-Chat](https://github.com/microsoft/DeepSpeed) for the RLHF training phase.
 
 ## License
 
