@@ -55,9 +55,9 @@ Reverse Personality Prompt Induction (RPPI) task performance:
 
 ![c](asserts/robustness_wo_pisf.jpg)
 
-### $\text{{PISF}}$: $\text{P}$rompt $\text{I}$nduction post $\text{S}$upervised $\text{F}$ine-tuning
+### $\text{{PISF}}$: Prompt Induction post Supervised Fine-tuning
 
-Harnessing the strengths of both SFT and prompt, we proposed $\text{P}$rompt $\text{I}$nduction post $\text{S}$upervised $\text{F}$ine-tuning $(\text{PISF})$, which emerges as the most effective and robust strategy for controlling LLMs' personality, displaying high efficacy, high success rates, and high robustness.
+Harnessing the strengths of both SFT and prompt, we proposed Prompt Induction post Supervised Fine-tuning $(\text{PISF})$, which emerges as the most effective and robust strategy for controlling LLMs' personality, displaying high efficacy, high success rates, and high robustness.
 Even under reverse personality prompt induction, LLMs controlled by PISF still exhibit stable and robust personalities.
 
 Control Success Rate & Efficacy:
