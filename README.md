@@ -4,7 +4,7 @@ Authors: Yanquan Chen, Zhen Wu, Junjie Guo, Shujian Huang, Xinyu Dai
 
 ## Overview
 
-We embarked on a comprehensive investigation into personality control with typical methods to influence LLMs.
+We embarked on a comprehensive investigation into personality control with typical methods to influence LLMs. Based on the exploration findings, we proposed Prompt Induction post Supervised Fine-tuning (PISF), which emerges as the most effective and robust strategy for controlling LLMs' personality, displaying high efficacy, high success rates, and high robustness.
 
 ![a](asserts/overview_00.png)
 
@@ -28,7 +28,7 @@ All codes and scripts for Continual Pre-train, Supervised Fine-tuning (SFT), and
 
 The data volumn of our datasets:
 
-![g](asserts/dataset_volumn.jpg)
+<img src="asserts/dataset_volumn.jpg" alt="data volumn" width="300"/>
 
 The summary statistics of our datasets:
 
