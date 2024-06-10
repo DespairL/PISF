@@ -72,6 +72,17 @@ Control Robustness:
 
 If you find our work useful for your research and applications, please cite using this BibTeX:
 
+```
+@misc{chen2024extroversion,
+      title={Extroversion or Introversion? Controlling The Personality of Your Large Language Models},
+      author={Yanquan Chen and Zhen Wu and Junjie Guo and Shujian Huang and Xinyu Dai},
+      year={2024},
+      eprint={2406.04583},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 ## Acknowledgement
 
 We adapted [Deepspeed-Chat](https://github.com/microsoft/DeepSpeed) for the RLHF training phase.
