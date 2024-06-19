@@ -38,6 +38,8 @@ All training and evaluating datasets constructed in our work are available via t
 
 [Download Datasets](https://drive.google.com/drive/folders/1g7tRFBxfsaqg_L56kfWejaGlJJGFNZjo?usp=drive_link)
 
+To access the data, you need to request permission. We will grant data access once the paper is accepted for publication.
+
 ## Results
 
 ### Synthetic Personality Control Success Rate & Efficacy
@@ -92,4 +94,4 @@ We adapted [Deepspeed-Chat](https://github.com/microsoft/DeepSpeed) for the RLHF
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
 [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
 
-The data and codes is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Vicuna and GPT-3.5. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes.
+The data and codes is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA and GPT-3.5. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes.
